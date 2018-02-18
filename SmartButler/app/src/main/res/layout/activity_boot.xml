@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/boot_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+    <RadioGroup
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <RadioButton
+            android:clickable="false"
+            android:id="@+id/btn_firstSnap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:clickable="false"
+            android:id="@+id/btn_secondSnap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:clickable="false"
+            android:id="@+id/btn_thirdSnap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/boot_finish"
+        android:visibility="gone"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="开始使用"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="center|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

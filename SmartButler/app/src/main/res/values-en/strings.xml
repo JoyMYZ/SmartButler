@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmartButler</string>
+    <string name="viewPager_fragment1_butler">服务管家</string>
+    <string name="viewPager_fragment2_wechat">微信精选</string>
+    <string name="viewPager_fragment3_girl">美女如云</string>
+    <string name="viewPager_fragment4_my">个人中心</string>
+</resources>
